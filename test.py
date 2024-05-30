@@ -2,6 +2,8 @@ import numpy as np
 import math
 x = [9,7,4,6,1]
 y = [5,4,2,3,2]
+print(x)
+print(y)
 xsum = np.sum(x)
 ysum = np.sum(y)
 Sxx = np.dot(x, x) - (xsum**2)/len(x)
